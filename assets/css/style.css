@@ -14,6 +14,7 @@ body {
     background-color: white;
     border: 2px solid white;
     border-radius: 40px ;
+    margin-bottom: 30px;
     
 }
 
@@ -62,3 +63,6 @@ button {
     color: #3281a8; 
 }
 
+.bottom-col{
+    padding: 30px;
+}
