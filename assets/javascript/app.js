@@ -66,7 +66,7 @@ $(function(){
                 $("#score").append("Correct: " + correct + "<br>");
                 $("#score").append("Incorrect: " + incorrect + "<br>");
                 $("#score").append("Unanswered: " + noAnswer + "<br>");
-                var image = $("#score-image").attr("src",  "https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif")
+                var image = $("<img id = #score-image>").attr("src",  "https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif")
                 $("#score").append(image);
 
             }
